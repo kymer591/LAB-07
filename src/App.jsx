@@ -1,6 +1,5 @@
 import './App.css'
-import { List } from './components/List'
-import { WrapperList } from './components/WrapperList'
+import { Button } from './components/Button'
 
 function App() {
 
@@ -8,9 +7,7 @@ function App() {
     <>
       
       <h1>Hola Mundo</h1>
-      <WrapperList>
-          <List/>
-      </WrapperList>
+      <Button/>
     </>
 
   )
